@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<title>Masjid Digital Infaq</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial;
+    background:#0b0f1a;
+    color:white;
+}
+
+/* HERO */
+.hero{
+    padding:60px 20px;
+    text-align:center;
+    background: radial-gradient(circle,#1b2a4a,#0b0f1a);
+}
+
+h1{font-size:40px;}
+p{color:#aaa}
+
+/* CARD */
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+.card{
+    background:#151c2e;
+    padding:20px;
+    border-radius:15px;
+    margin-top:20px;
+}
+
+/* BUTTON */
+button{
+    padding:12px 20px;
+    border:none;
+    border-radius:20px;
+    background:red;
+    color:white;
+    cursor:pointer;
+}
+
+img{
+    width:180px;
+    border-radius:10px;
+    margin-top:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+<h1>Infaq & Sedekah Masjid</h1>
+<p>Sumbangan anda membantu pembangunan masjid</p>
+</div>
+
+<div class="container">
+
+<div class="card">
+<h2>Derma Offline</h2>
+
+<p>Bayaran melalui QR DuitNow atau bank transfer</p>
+
+<!-- QR IMAGE (TUKAR SINI) -->
+<img src="qr-code.png" alt="QR Masjid">
+
+<p><b>Nama Masjid:</b> Masjid Al-Hidayah</p>
+<p><b>Tel:</b> +60 12-345 6789</p>
+
+<button onclick="alert('Sila scan QR atau hubungi masjid')">
+Hubungi Masjid
+</button>
+</div>
+
+<div class="card">
+<h2>Tujuan Derma</h2>
+<ul>
+<li>Tabung Masjid</li>
+<li>Pendidikan Islam</li>
+<li>Kebajikan & Asnaf</li>
+<li>Operasi Masjid</li>
+</ul>
+</div>
+
+</div>
+
+</body>
+</html>
